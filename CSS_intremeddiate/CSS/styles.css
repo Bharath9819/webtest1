@@ -1,0 +1,185 @@
+body {
+    /* margin-top: 0px;
+    margin-left: 0px;
+*/
+    color: #40514E;
+    margin: auto;
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+}
+
+/*              tag selectors           */
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    line-height: 2;
+    /*16px=1em   90px=5.625em  for font size we give rem as represention instead of PX*/
+    margin: 50 auto 0 auto;
+    font-family: 'PT Serif', serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+
+h3 {
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+}
+
+a:hover {
+    color: #b4edff;
+}
+
+
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    margin: 100PX auto;
+    width: 4%;
+}
+
+/*           class selectors       */
+
+
+.copyright {
+    color: #7a61e6;
+    font-family: 'PT Serif', serif;
+    font-size: 0.75rem;
+}
+
+.copyright:hover {
+    color: #EAF6F6;
+}
+
+.top {
+    background-color: rgb(170, 247, 240);
+    position: relative;
+    padding-top: 100px;
+    margin: 100px 0;
+}
+
+
+.mid-container {
+    /* have t5o return*/
+}
+
+.bottom-container {
+    /* have t5o return*/
+    margin-top: 100px;
+    background-color: #66BFBF;
+    padding: 10px 0 20px;
+}
+
+
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 500px;
+    top: 80px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 500px;
+    bottom: 400px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.chillies {
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+
+.computer {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-message {
+    width: 30%;
+    margin: 50px auto 40px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'PT Serif', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+
+/*clear is equal to un float the context which held on the left of the image eg:
+ .computer {
+     width: 25%;
+     float: right;
+     margin-left: 30px;
+ }
+
+ .class name for para{
+    clear: right;
+ }
+
+
+ .top-split {
+     clear: left
+ }
+
+ .bottom-split {
+     clear: right;
+ }
+
+ its clear the float part into separate from image, and the text or para will appear on below of image.
+
+ */

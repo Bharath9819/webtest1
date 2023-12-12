@@ -1,0 +1,21 @@
+        body {
+            background-color: #DDDDDD;
+        }
+
+        hr {
+            border-style: none;
+            border-color: gray;
+            border-top-style: dotted;
+            border-width: 10px;
+            width: 10%;
+        }
+
+        h1 {
+            color: rgb(8, 43, 247);
+            font-family: cursive;
+        }
+
+        h3 {
+            color: rgb(228, 142, 14);
+            font-family: cursive;
+        }
